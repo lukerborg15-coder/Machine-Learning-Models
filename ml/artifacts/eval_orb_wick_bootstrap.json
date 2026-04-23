@@ -1,0 +1,13 @@
+{
+  "strategy_name": "orb_wick",
+  "per_fold": [],
+  "aggregated": {
+    "n_trades": 0,
+    "n_days": 0
+  },
+  "config": {
+    "n_resamples": 1000,
+    "expected_block_len": 5.0,
+    "random_state": 42
+  }
+}

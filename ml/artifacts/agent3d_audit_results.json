@@ -1,0 +1,56 @@
+[
+  {
+    "idx": 1,
+    "name": "synthetic stop-hit-first (long)",
+    "passed": true,
+    "evidence": "label=0.0, barrier_hit=stop, exit_price=98.5, exit_bar=2.0"
+  },
+  {
+    "idx": 2,
+    "name": "synthetic target-hit-first (long)",
+    "passed": true,
+    "evidence": "label=1.0, barrier_hit=target, exit_price=101.5, exit_bar=2.0"
+  },
+  {
+    "idx": 3,
+    "name": "short symmetry",
+    "passed": true,
+    "evidence": "label=1.0, barrier_hit=target, r_multiple=0.9533, exit_price=98.5"
+  },
+  {
+    "idx": 4,
+    "name": "same-bar conflict stop-wins",
+    "passed": true,
+    "evidence": "label=0.0, barrier_hit=stop, exit_price=98.5 (labels.py loop checks stop_hit before target_hit at lines 123-134)"
+  },
+  {
+    "idx": 5,
+    "name": "session boundary at 15:00 ET",
+    "passed": true,
+    "evidence": "exit_time=2025-01-02 15:00:00-05:00, barrier_hit=vertical"
+  },
+  {
+    "idx": 6,
+    "name": "label/trade-sim consistency on 20 real signal bars",
+    "passed": true,
+    "evidence": "comparable=20, matches=20, mismatches=0 (tolerance=4). First mismatches: []"
+  },
+  {
+    "idx": 7,
+    "name": "vertical-barrier transaction cost",
+    "passed": true,
+    "evidence": "label=0.0, barrier_hit=vertical, r_multiple=-0.004667 (labels.py:138-140 subtracts transaction_cost_pts before sign check)"
+  },
+  {
+    "idx": 8,
+    "name": "class weight train-split only",
+    "passed": true,
+    "evidence": "c0=457 c1=506 sum=963 train_windows=963 val_windows=203 stored_pw=0.9031620553359684 reconstructed=0.903162055336 formula_c0/c1=0.903162055336"
+  },
+  {
+    "idx": 9,
+    "name": "threshold-sweep monotonic sanity",
+    "passed": true,
+    "evidence": "strategies_checked=8, violators=[]"
+  }
+]

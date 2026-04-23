@@ -1,0 +1,41 @@
+﻿# ===== DATA (too large, regenerate from Databento) =====
+data/
+ml/data/*.parquet
+ml/data/*.csv
+
+# ===== LOGS =====
+*.log
+pipeline_run_*.log
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# ===== VENVS =====
+.venv/
+venv/
+env/
+
+# ===== ENV / SECRETS =====
+.env
+.env.local
+*.key
+credentials.json
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+
+# ===== KEEP ml/artifacts/ — included intentionally for AI handoff context =====
+# ===== KEEP Implementation/ — strategy code =====
+# ===== KEEP ml/*.py — patched pipeline =====

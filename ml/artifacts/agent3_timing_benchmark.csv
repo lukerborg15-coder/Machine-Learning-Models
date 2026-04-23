@@ -1,0 +1,2 @@
+strategy_name,trial,fold,selection_metric,test_touched_during_search,validation_sharpe,validation_f1,validation_profit_factor,validation_trade_count,runtime_seconds,batch_size,max_epochs,patience,num_classes,device,dry_run_training,n_filters,kernel_size,n_layers,dropout,learning_rate,seq_len,benchmark_strategy,benchmark_seed
+ttm,1,fold_2,validation_sharpe,False,0.8292912897927973,0.3188349153173274,1.6300188205771644,12,1.6280062000005273,128,8,3,3,cpu,False,32,3,4,0.3,0.001,60,ttm,42

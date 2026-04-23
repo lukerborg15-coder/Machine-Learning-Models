@@ -1,0 +1,5 @@
+strategy_name,deployment_candidate,deployment_reason,agg_sharpe_p05,agg_sharpe_p50,agg_pf_p50,agg_pass_p05,worst_fold_sharpe,n_trades
+model_1,False,missing bootstrap artifact (run `python ml/evaluate.py --bootstrap`),,,,,,0
+model_2,False,missing bootstrap artifact (run `python ml/evaluate.py --bootstrap`),,,,,,0
+model_3,False,missing bootstrap artifact (run `python ml/evaluate.py --bootstrap`),,,,,,0
+model_4,False,missing bootstrap artifact (run `python ml/evaluate.py --bootstrap`),,,,,,0

@@ -1,0 +1,11 @@
+strategy_name,trial,fold,objective,selection_metric,test_touched_during_search,validation_sharpe,validation_f1,validation_auc,validation_brier,validation_profit_factor,validation_trade_count,runtime_seconds,batch_size,max_epochs,patience,num_classes,device,dry_run_training,n_filters,kernel_size,n_layers,dropout,learning_rate,seq_len
+orb_vol,8,fold_5,meta_label,validation_auc,False,,0.5451101112952876,0.5431746031746032,0.3029370087364395,,0,3.0612794000007852,128,8,3,2,cpu,False,64,5,3,0.5,0.001,60
+orb_vol,6,fold_5,meta_label,validation_auc,False,,0.4949423665019995,0.4777777777777778,0.26311650769833694,,0,0.634747600000992,128,8,3,2,cpu,False,64,7,2,0.2,0.0003,30
+orb_vol,2,fold_5,meta_label,validation_auc,False,,0.5033165507871813,0.4631746031746032,0.2567794939151896,,0,1.1734624999990046,128,8,3,2,cpu,False,128,3,2,0.5,0.0001,60
+orb_vol,1,fold_5,meta_label,validation_auc,False,,0.5118982172308175,0.4514285714285714,0.2593864371023952,,0,1.7470379999995203,128,8,3,2,cpu,False,128,7,2,0.3,0.0001,60
+orb_vol,10,fold_5,meta_label,validation_auc,False,,0.5056867891513561,0.4498412698412698,0.26362914859550585,,0,2.8372472999999445,128,8,3,2,cpu,False,64,5,4,0.2,0.0001,30
+orb_vol,9,fold_5,meta_label,validation_auc,False,,0.5040752351097179,0.44285714285714284,0.274525912933401,,0,2.015096099999937,128,8,3,2,cpu,False,128,5,2,0.5,0.0003,60
+orb_vol,4,fold_5,meta_label,validation_auc,False,,0.5126636869756136,0.44253968253968257,0.2590723296413968,,0,0.8381635999994614,128,8,3,2,cpu,False,64,7,2,0.2,0.0001,60
+orb_vol,3,fold_5,meta_label,validation_auc,False,,0.4930342384887839,0.4253968253968254,0.3286441325684335,,0,4.261678299999403,128,8,3,2,cpu,False,64,5,4,0.2,0.0003,30
+orb_vol,5,fold_5,meta_label,validation_auc,False,,0.4532108586894119,0.4177777777777778,0.2683776393739183,,0,1.51254660000086,128,8,3,2,cpu,False,128,3,3,0.3,0.0001,20
+orb_vol,7,fold_5,meta_label,validation_auc,False,,0.4332288401253918,0.4177777777777778,0.42702897352660996,,0,11.676641800000652,128,8,3,2,cpu,False,128,3,4,0.3,0.0003,30

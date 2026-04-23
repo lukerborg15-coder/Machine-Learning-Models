@@ -1,0 +1,36 @@
+[CHECK 1] PASS - Block bootstrap widens CIs vs iid on autocorrelated series
+         block p95-p05 = 20.908, iid p95-p05 = 5.643
+[CHECK 2] PASS - Reproducibility: random_state=123 repeat is bit-identical
+         all 6 summary keys identical
+[CHECK 3] PASS - Percentile ordering p05 <= p50 <= p95 on every disk artifact
+         8 files scanned, 0 violations
+[CHECK 4] PASS - Pass-rate bootstrap replays TopStepRiskManager on day sequences
+         winning seq: point=1.0 mean=1.000 p05=1.000 p95=1.000; losing seq: point=0.0 mean=0.000
+[CHECK 5] PASS - Degenerate inputs stay finite and respect PF/Calmar caps
+         0 violations
+[CHECK 6] PASS - Unreliable flag fires for n<30, not for n>=30
+         n=3 unreliable=True, n=50 unreliable=False
+[CHECK 7] PASS - Deployment gate rejects on each failure axis and accepts clean case
+         all 4 rejection paths + 1 acceptance path verified
+[CHECK 8] PASS - Multiple-testing filter rejects p50 Sharpe < 0.5 by default, toggles off with None
+         with_filter.approved=False ('failed: aggregated p50 Sharpe = 0.350 < 0.50 (multiple-testing filter)'); without_filter.approved=True
+[CHECK 9] PASS - Aggregated n_trades matches sum of per-fold n_trades
+         8 strategies, 0 mismatches
+[CHECK 10] PASS - Full pytest suite is green
+         returncode=0 | 97 passed, 2 skipped in 490.43s (0:08:10)
+
+======================================================================
+SUMMARY
+======================================================================
+[ 1] PASS - Block bootstrap widens CIs vs iid on autocorrelated series
+[ 2] PASS - Reproducibility: random_state=123 repeat is bit-identical
+[ 3] PASS - Percentile ordering p05 <= p50 <= p95 on every disk artifact
+[ 4] PASS - Pass-rate bootstrap replays TopStepRiskManager on day sequences
+[ 5] PASS - Degenerate inputs stay finite and respect PF/Calmar caps
+[ 6] PASS - Unreliable flag fires for n<30, not for n>=30
+[ 7] PASS - Deployment gate rejects on each failure axis and accepts clean case
+[ 8] PASS - Multiple-testing filter rejects p50 Sharpe < 0.5 by default, toggles off with None
+[ 9] PASS - Aggregated n_trades matches sum of per-fold n_trades
+[10] PASS - Full pytest suite is green
+
+VERDICT: ALL PASS

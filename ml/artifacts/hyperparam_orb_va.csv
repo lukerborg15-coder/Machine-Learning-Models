@@ -1,0 +1,11 @@
+strategy_name,trial,fold,objective,selection_metric,test_touched_during_search,validation_sharpe,validation_f1,validation_auc,validation_brier,validation_profit_factor,validation_trade_count,runtime_seconds,batch_size,max_epochs,patience,num_classes,device,dry_run_training,n_filters,kernel_size,n_layers,dropout,learning_rate,seq_len
+orb_va,7,fold_5,meta_label,validation_auc,False,,0.4666666666666667,0.4402834008097166,0.25631063636653867,,0,0.7920361999986198,128,8,3,2,cpu,False,128,3,3,0.5,0.0003,20
+orb_va,9,fold_5,meta_label,validation_auc,False,,0.41487521620953793,0.43724696356275305,0.2991775932725451,,0,4.333962699998665,128,8,3,2,cpu,False,64,5,4,0.3,0.0003,60
+orb_va,3,fold_5,meta_label,validation_auc,False,,0.48424908424908425,0.43623481781376516,0.2527415367804845,,0,0.46394929999951273,128,8,3,2,cpu,False,32,3,4,0.5,0.0003,20
+orb_va,6,fold_5,meta_label,validation_auc,False,,0.2873806998939555,0.42813765182186236,0.25919116125256947,,0,0.4654976000001625,128,8,3,2,cpu,False,32,3,4,0.2,0.0003,20
+orb_va,4,fold_5,meta_label,validation_auc,False,,0.46790821416694384,0.4251012145748988,0.2491943173633971,,0,0.5151525000001129,128,8,3,2,cpu,False,32,3,4,0.3,0.0001,30
+orb_va,5,fold_5,meta_label,validation_auc,False,,0.34358974358974353,0.4048582995951417,0.2561102326770143,,0,0.9157020000002376,128,8,3,2,cpu,False,64,3,4,0.3,0.0001,20
+orb_va,10,fold_5,meta_label,validation_auc,False,,0.30767295597484273,0.4008097165991903,0.3010749698670194,,0,3.87210099999902,128,8,3,2,cpu,False,128,3,4,0.2,0.0003,30
+orb_va,1,fold_5,meta_label,validation_auc,False,,0.4092307692307693,0.36639676113360325,0.2575150284813785,,0,0.32550319999973,128,8,3,2,cpu,False,64,5,2,0.3,0.0003,30
+orb_va,2,fold_5,meta_label,validation_auc,False,,0.39139139139139145,0.3623481781376518,0.3051572625143369,,0,12.027507000000696,128,8,3,2,cpu,False,128,7,4,0.2,0.001,60
+orb_va,8,fold_5,meta_label,validation_auc,False,,0.4056695992179863,0.3340080971659919,0.2604139115904324,,0,0.30895930000042426,128,8,3,2,cpu,False,32,5,2,0.2,0.001,60

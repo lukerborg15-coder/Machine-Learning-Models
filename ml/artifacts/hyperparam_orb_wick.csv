@@ -1,0 +1,11 @@
+strategy_name,trial,fold,objective,selection_metric,test_touched_during_search,validation_sharpe,validation_f1,validation_auc,validation_brier,validation_profit_factor,validation_trade_count,runtime_seconds,batch_size,max_epochs,patience,num_classes,device,dry_run_training,n_filters,kernel_size,n_layers,dropout,learning_rate,seq_len
+orb_wick,10,fold_5,meta_label,validation_auc,False,,0.5068181818181818,0.49318181818181817,0.25695503180042306,,0,0.49172859999998764,128,8,3,2,cpu,False,32,5,2,0.5,0.001,30
+orb_wick,7,fold_5,meta_label,validation_auc,False,,0.5074401008827238,0.4851010101010101,0.34890393567665867,,0,6.067982200000188,128,8,3,2,cpu,False,64,5,4,0.5,0.001,30
+orb_wick,9,fold_5,meta_label,validation_auc,False,,0.475,0.47373737373737373,0.3293731957018332,,0,2.1274973999989015,128,8,3,2,cpu,False,64,5,3,0.3,0.001,30
+orb_wick,6,fold_5,meta_label,validation_auc,False,,0.4756620428751577,0.46540404040404043,0.2758562718300535,,0,2.7398018000003503,128,8,3,2,cpu,False,64,7,3,0.5,0.001,60
+orb_wick,3,fold_5,meta_label,validation_auc,False,,0.5078125,0.45151515151515154,0.2669161654579647,,0,1.3347016999996413,128,8,3,2,cpu,False,128,7,2,0.2,0.0003,30
+orb_wick,8,fold_5,meta_label,validation_auc,False,,0.4745621351125938,0.4383838383838384,0.26388548173116844,,0,0.43817029999991064,128,8,3,2,cpu,False,32,7,2,0.5,0.001,20
+orb_wick,5,fold_5,meta_label,validation_auc,False,,0.44318181818181823,0.43636363636363634,0.30928953567781947,,0,1.224985500000912,128,8,3,2,cpu,False,32,3,4,0.2,0.001,30
+orb_wick,4,fold_5,meta_label,validation_auc,False,,0.4679523539421441,0.43308080808080807,0.28004738446282507,,0,6.9036584999994375,128,8,3,2,cpu,False,128,7,3,0.2,0.0003,60
+orb_wick,2,fold_5,meta_label,validation_auc,False,,0.5115016800206772,0.4308080808080808,0.25960001838903,,0,0.9737531000009767,128,8,3,2,cpu,False,32,7,3,0.2,0.0001,60
+orb_wick,1,fold_5,meta_label,validation_auc,False,,0.43218026023484607,0.43005050505050507,0.2694219526280518,,0,1.9811946999998327,128,8,3,2,cpu,False,32,5,4,0.5,0.0003,60

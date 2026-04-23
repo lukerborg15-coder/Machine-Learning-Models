@@ -1,0 +1,9 @@
+strategy_name,deployment_candidate,deployment_reason,median_test_sharpe,min_test_sharpe,max_test_sharpe,combine_pass_folds,low_sample_folds
+ifvg,False,"failed: non-positive test Sharpe in fold_2, fold_3",1.1065018214826352,-2.26106699066524,1.5506571693163456,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+ttm,False,failed: non-positive test Sharpe in fold_1,0.6560201323456825,-0.6247163931422213,1.831998725610716,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+connors,False,"failed: non-positive test Sharpe in fold_2, fold_3",0.6098502438416988,-1.7963595405598178,2.5499440202305763,1,"fold_1, fold_2, fold_3, fold_4, fold_5"
+ifvg_open,False,"failed: non-positive test Sharpe in fold_1, fold_2, fold_3, fold_4, fold_5",,,,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+orb_ib,False,"failed: non-positive test Sharpe in fold_1, fold_2, fold_3, fold_4, fold_5",,,,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+orb_vol,False,"failed: non-positive test Sharpe in fold_1, fold_2, fold_3, fold_4, fold_5",,,,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+orb_wick,False,"failed: non-positive test Sharpe in fold_1, fold_2, fold_3, fold_4, fold_5",,,,0,"fold_1, fold_2, fold_3, fold_4, fold_5"
+orb_va,False,"failed: non-positive test Sharpe in fold_1, fold_2, fold_3, fold_4, fold_5",,,,0,"fold_1, fold_2, fold_3, fold_4, fold_5"

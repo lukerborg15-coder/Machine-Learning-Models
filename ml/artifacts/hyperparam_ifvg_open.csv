@@ -1,0 +1,11 @@
+strategy_name,trial,fold,objective,selection_metric,test_touched_during_search,validation_sharpe,validation_f1,validation_auc,validation_brier,validation_profit_factor,validation_trade_count,runtime_seconds,batch_size,max_epochs,patience,num_classes,device,dry_run_training,n_filters,kernel_size,n_layers,dropout,learning_rate,seq_len
+ifvg_open,7,fold_5,meta_label,validation_auc,False,,0.3923611111111111,0.44155844155844154,0.2533843079560211,,0,0.5451299000014842,128,8,3,2,cpu,False,32,3,2,0.3,0.0003,60
+ifvg_open,9,fold_5,meta_label,validation_auc,False,,0.3923611111111111,0.4025974025974026,0.25833547644230825,,0,0.6693279999999504,128,8,3,2,cpu,False,64,3,3,0.5,0.001,30
+ifvg_open,2,fold_5,meta_label,validation_auc,False,,0.3961352657004831,0.3961038961038961,0.25372761732359683,,0,1.3155069000004005,128,8,3,2,cpu,False,128,5,3,0.3,0.0001,30
+ifvg_open,4,fold_5,meta_label,validation_auc,False,,0.3055555555555556,0.37012987012987014,0.2575822958306687,,0,0.5848218000010093,128,8,3,2,cpu,False,64,7,2,0.3,0.0003,20
+ifvg_open,6,fold_5,meta_label,validation_auc,False,,0.4799999999999999,0.35064935064935066,0.25584764403604704,,0,0.6193844000008539,128,8,3,2,cpu,False,64,5,2,0.3,0.0003,60
+ifvg_open,5,fold_5,meta_label,validation_auc,False,1.6088300448124115,0.47665056360708535,0.3116883116883117,0.38049303895249165,2.0512716450216844,2,3.909006900001259,128,8,3,2,cpu,False,64,7,4,0.3,0.001,60
+ifvg_open,3,fold_5,meta_label,validation_auc,False,,0.3961352657004831,0.3051948051948052,0.2526458348226976,,0,0.593341199999486,128,8,3,2,cpu,False,32,3,3,0.2,0.0003,30
+ifvg_open,8,fold_5,meta_label,validation_auc,False,,0.4318181818181818,0.2792207792207792,0.2643170991266664,,0,0.672491400000581,128,8,3,2,cpu,False,32,7,3,0.3,0.001,60
+ifvg_open,1,fold_5,meta_label,validation_auc,False,,0.41666666666666663,0.2662337662337662,0.2659196354506262,,0,0.7819816999999603,128,8,3,2,cpu,False,64,5,3,0.3,0.0003,20
+ifvg_open,10,fold_5,meta_label,validation_auc,False,,0.3961352657004831,0.2532467532467532,0.2561751145309025,,0,0.6453652999989572,128,8,3,2,cpu,False,64,7,2,0.5,0.0003,60

@@ -1,0 +1,31 @@
+[CHECK 1] PASS — synthetic stop-hit-first (long)
+         label=0.0, barrier_hit=stop, exit_price=98.5, exit_bar=2.0
+[CHECK 2] PASS — synthetic target-hit-first (long)
+         label=1.0, barrier_hit=target, exit_price=101.5, exit_bar=2.0
+[CHECK 3] PASS — short symmetry
+         label=1.0, barrier_hit=target, r_multiple=0.9533, exit_price=98.5
+[CHECK 4] PASS — same-bar conflict stop-wins
+         label=0.0, barrier_hit=stop, exit_price=98.5 (labels.py loop checks stop_hit before target_hit at lines 123-134)
+[CHECK 5] PASS — session boundary at 15:00 ET
+         exit_time=2025-01-02 15:00:00-05:00, barrier_hit=vertical
+[CHECK 6] PASS — label/trade-sim consistency on 20 real signal bars
+         comparable=20, matches=20, mismatches=0 (tolerance=4). First mismatches: []
+[CHECK 7] PASS — vertical-barrier transaction cost
+         label=0.0, barrier_hit=vertical, r_multiple=-0.004667 (labels.py:138-140 subtracts transaction_cost_pts before sign check)
+[CHECK 8] PASS — class weight train-split only
+         c0=457 c1=506 sum=963 train_windows=963 val_windows=203 stored_pw=0.9031620553359684 reconstructed=0.903162055336 formula_c0/c1=0.903162055336
+[CHECK 9] PASS — threshold-sweep monotonic sanity
+         strategies_checked=8, violators=[]
+
+============================================================
+Agent 3D audit summary
+============================================================
+   1. PASS — synthetic stop-hit-first (long)
+   2. PASS — synthetic target-hit-first (long)
+   3. PASS — short symmetry
+   4. PASS — same-bar conflict stop-wins
+   5. PASS — session boundary at 15:00 ET
+   6. PASS — label/trade-sim consistency on 20 real signal bars
+   7. PASS — vertical-barrier transaction cost
+   8. PASS — class weight train-split only
+   9. PASS — threshold-sweep monotonic sanity
